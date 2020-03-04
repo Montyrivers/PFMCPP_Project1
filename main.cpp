@@ -35,88 +35,115 @@ arm.rotateCounterClockwise(); //demonstrates CamelCase
 
 /*
  1)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun: plane
+ action 1: the plane takes off
+ action 2: the plane flies
+ action 3: the plane lands
  */
-
+plane.takeOff();
+plane.fly();
+plane.land();
 
 /*
  2)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun: car
+ action 1: the car accelerates
+ action 2: the car brakes
+ action 3: the car parks
  */
+ car.accelerate();
+ car.brake();
+ car.park();
 
 /*
  3)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun: oven
+ action 1: the oven pre-heats
+ action 2: the oven has a timer
+ action 3: the oven turns off
  */
-
+oven.preHeat();
+oven.timer();
+oven.turnOff();
 
 /*
  4)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun: crane
+ action 1: the crane lowers its arm
+ action 2: the crane grabs something
+ action 3: the crane raises its arm
  */
+ crane.lowerArm();
+ crane.grab();
+ crane.raiseArm();
 
 /*
  5)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun: synthesizer
+ action 1: the synthesizer triggers an attack/decay stage
+ action 2: the synthesizer triggers a release stage
+ action 3: the synthesizer attenuates volume
  */
+ synth.triggerAttackDecay();
+ synth.triggerRelease();
+ synth.volumeSet();
 
 
 /*
  6)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun: robot
+ action 1: the robot makes a beeping sound
+ action 2: the robot serves milk and cookies
+ action 3: the robot plans global domination
  */
+ robot.beep();
+ robot.milkCookies();
+ robot.domination();
 
 /*
  7)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun: hard drive
+ action 1: the hard drive reads from disk
+ action 2: the hard drive writes to disk
+ action 3: the hard drive parks its read/write header
  */
+ hdd.read();
+ hdd.write();
+ hdd.park();
 
 
 /*
  8)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun: alarm clock
+ action 1: the clock can set the current time
+ action 2: the clock can set its alarm time
+ action 3: the clock has a radio tuner 
  */
-
+alarmClock.setCurrentTime();
+alarmClock.setAlarmTime();
+alarmClock.radio();
 /*
  9)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun: super soaker
+ action 1: the super soaker can spray water
+ action 2: the super soaker can be pumped up
+ action 3: the super soaker can be refilled with more water.
  */
+ superSoaker.spray();
+ superSoaker.pump();
+ superSoaker.refill();
 
 
 /*
  10)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun: tape deck
+ action 1: the tape deck can playback a recording
+ action 2: the tape deck can rewind a recording
+ action 3: the tape deck can stop a recording
  */
+ tapeDeck.play();
+ tapeDeck.rewind();
+ tapeDeck.stop();
 
 
 #endif
